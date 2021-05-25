@@ -6,6 +6,8 @@
 
 Build a nice, minimal case that works very well with 8bitdo sega controllers.  When it's finished, you'll have a case with just a single power cables, and a custom short OTG USB cable fo a very tidy setup.
 
+
+### Parts List
 For this project you will need:
 - A DE10 Nano
 - 2 PCB's, the designs and schematics are in this repo
