@@ -18,6 +18,9 @@ For this project you will need:
 - 3x 12mm buttons
 - single-row pin header, male and female
 - 2x 8BitDo M30 2.4G wireless controllers
+- 40mm 5V fan (optional)
+- heatsink (optional)
+- SDRAM (optional)
 
 # Flashing the Arduino
 Grabe the code from this Repo:
@@ -31,9 +34,9 @@ Use the latest Arduino GUI to flash the Arduino Pro Micro via USB. This can also
 
 You need to get some PCB's made. In this repo are the Eagle board files. I had black PCB's with lead-free HASL, which gives you a nice black/silver loof for the logo. You also need to 3D print the side panels, I used black PLA to match the PCB's.
 
-![case_top](Images/case18.jpg)
 ![case_top](Images/case19.jpg)
 ![case_top](Images/case20.jpg)
+![case_top](Images/case18.jpg)
 
 Then, on to assembly!
 
@@ -49,8 +52,9 @@ Get all the parts ready, and some lead-free solder. As the solder joints are a b
 
 ![arduino](Images/case10.jpg)
  - The Arduino is soldering on with single-side pads, so there's no ugly solder joints on the top surface.
- - Melt the solder through the holes until you see the solder leak through only the case pads.
- - The pin-headers for the 8BitDo 2.4G adapters can be soldered next. Cut your pin headers to 2x 4 pin and 2x 5 pin, and solder the short ends from the top of the cover.
+ - Melt the solder through the holes until you see the solder leak through onto the pads.
+ - The pin-headers for the 8BitDo 2.4G adapters can be soldered next. Cut your pin headers to 2x 4 pin and 2x 5 pin strips, and solder the short ends from the top of the cover.
+ - attach a 5V 40mm fan (optional), then cut the wires to length and solder to the top case PCB.
 
 ![buttons](Images/case11.jpg)
  - the bottons pop-in from the top, and the kink in the legs hold them in place while you solder.
@@ -65,6 +69,7 @@ Get all the parts ready, and some lead-free solder. As the solder joints are a b
 
 Now its time to put the parts together! You can see the order of the parts in the next picture. First, take off the brass risers from the DE10 Nano, we'll need them soon.
 
+ - Add the SDRAM to the DE10 Nano
  - Push the M3 16mm bolts through the base plate, the 3D printed sides, the DE10 nano, and into the brass risers.
  - Don't forget to either make a hole in one for the SD card, or insert the SD card now.
 ![order_bottom](Images/case13.jpg)
@@ -82,6 +87,6 @@ Now its time to put the parts together! You can see the order of the parts in th
 ![order_top](Images/case3.jpg)
 ![order_top](Images/case5.jpg)
 
-Once the assemlby is done, you can either use a OTG Hub, and connect the hub to the Arduino, or you can also make a short USB Micro cable to keep things tidy.
+Once the assemlby is done, you can either use a OTG Hub, and connect the hub to the Arduino, or you can also make a short USB Micro cable to keep things tidy. I used a black marker to 'paint' the SDRAM module PCB black, and make everything look more professional.
 
 
