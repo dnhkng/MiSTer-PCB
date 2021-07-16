@@ -57,7 +57,7 @@ Get all the parts ready, and some lead-free solder. As the solder joints are a b
  - attach a 5V 40mm fan (optional), then cut the wires to length and solder to the top case PCB.
 
 ![buttons](Images/case11.jpg)
- - the bottons pop-in from the top, and the kink in the legs hold them in place while you solder.
+ - the buttons pop-in from the top, and the kink in the legs hold them in place while you solder.
 
 ![connector](Images/case9.jpg)
  - The hardest part in the whole project is the DE10 Nano heard connector. Cut a Female pin header up, and solder it in place as shown.
@@ -71,6 +71,7 @@ Now its time to put the parts together! You can see the order of the parts in th
 
  - Add the SDRAM to the DE10 Nano
  - Push the M3 16mm bolts through the base plate, the 3D printed sides, the DE10 nano, and into the brass risers.
+ - ** If you don't have the 3D printed side panels, you can use 2x M3 nuts as a spacer between the bottom panel and the DE10 Nano!**
  - Don't forget to either make a hole in one for the SD card, or insert the SD card now.
 ![order_bottom](Images/case13.jpg)
 ![order_bottom](Images/case15.jpg)
