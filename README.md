@@ -68,11 +68,10 @@ Get all the parts ready, and some lead-free solder. As the solder joints are a b
 ![parts](Images/case14.jpg)
 
 Now its time to put the parts together! You can see the order of the parts in the next picture. First, take off the brass risers from the DE10 Nano, we'll need them soon.
-
  - Add the SDRAM to the DE10 Nano
  - Push the M3 16mm bolts through the base plate, the 3D printed sides, the DE10 nano, and into the brass risers.
- - ** If you don't have the 3D printed side panels, you can use 2x M3 nuts as a spacer between the bottom panel and the DE10 Nano!**
  - Don't forget to either make a hole in one for the SD card, or insert the SD card now.
+** If you don't have the 3D printed side panels, you can use 2x M3 nuts per M3 bolt as a spacer between the bottom panel and the DE10 Nano! **
 ![order_bottom](Images/case13.jpg)
 ![order_bottom](Images/case15.jpg)
 
